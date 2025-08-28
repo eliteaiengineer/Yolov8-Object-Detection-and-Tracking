@@ -84,8 +84,9 @@ make test        # smoke tests (imports)
 PYTHONPATH=src pytest -v
 ```
 
-
 ### 🧠 Notes
-Default model: yolov8n.pt (fastest). Swap to yolov8s.pt, yolov8m.pt, etc. as needed.
-All runs/models/predictions are written under ./outputs/ to keep the repo self-contained.
-You can resume training by passing --resume outputs/train/last.pt.
+
+- Default model: yolov8n.pt (fastest). Swap to yolov8s.pt, yolov8m.pt, etc. as needed.
+- All runs/models/predictions are written under ./outputs/ to keep the repo self-contained.
+- You can resume training by passing --resume outputs/train/last.pt.
+
