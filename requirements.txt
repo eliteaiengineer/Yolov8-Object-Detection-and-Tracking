@@ -1,0 +1,5 @@
+ultralytics>=8.2.0
+opencv-python
+numpy
+torch       # install a CUDA/MPS build separately if needed
+pytest
